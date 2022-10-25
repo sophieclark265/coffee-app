@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" href="file.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="nav-bar">
+      <div class="home-logo">
+        <h1>
+          Clive Coffee
+        </h1>
+      </div>
+      <div class="header-menu">
+
+        <ul class="menu-list">
+
+          <li class="menu-item">Home</li>
+          <li class="menu=item">About</li>
+          <li class="menu-item">Shop</li>
+          <li class="menu-item">Contact</li>
+
+        </ul>
+
+      </div>
+      <div class="checkout-menu">
+
+        <ul class="checkout-list">
+          <li class="checkout-item">Checkout</li>
+          <li class="checkout-item">Contact</li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="main">
+      <div class="hero">
+        <h2>The Economics of Home Espresso</h2>
+      </div>
+      <div class="calculator">
+        <div class="text-holder">
+          <p>While the initial sticker price can seem daunting, home espresso is a terrific long-term value. Even if
+            you
+            are buying
+            the best machine and beans, the average cafe consumer will save thousands of dollars per year by switching
+            to home
+            espresso.</p>
+        </div>
+        <div class="interactive-section">
+          <label for="people">
+            <div class="roi-input">
+              <h4 id="number-of-drinkers">Number of Drinkers:</h4>
+              <p class="result">2</p>
+            </div>
+            <input type="range" name="drinkers" id="drinkers-selector" min="1" max="9" value="2" step="1">
+          </label>
+          <label for="drink-frequency">
+            <div class="roi-input">
+              <h4 id="drink-frequency">Drinks Per Day Per Person:</h4>
+              <p class="result">2</p>
+            </div>
+            <input type="range" name="drink-freq" id="freq-selector" min="1" max="9" value="2" step="1">
+          </label>
+          <label for="drink-cost">
+            <div class="roi-input">
+              <h4 id="ind-drink-price">Coffee Shop Drink Price:</h4>
+              <p class="result">$5</p>
+            </div>
+            <input type="range" name="bev-price" id="drink-price-selector" min="1" max="10" value="5" step="0.50">
+          </label>
+          <label for="espresso">
+            <div class="roi-input">
+              <h4 id="espresso-package-budget">Espresso Package Budget:</h4>
+              <p class="result">$1500</p>
+            </div>
+            <input type="range" name="espresso" id="espresso-selector" min="1000" max="5000" value="1500" step="100">
+          </label>
+        </div>
+        <label for="milk-selector">
+          <div id="roi-milk">
+            <input type="checkbox" name="milk-question" id="milk-question">
+            <p id="alt-milk-question">Alternative milk preferred?</p>
+          </div>
+        </label>
+        <label for="bean-customizer">
+          <div id="bean-editor">
+            <input type="checkbox" name="bean-price-changer" id="bean-price-changer">
+            <p id="customize-beans-option">Customize price for espresso beans</p>
+          </div>
+        </label>
+      </div>
+      <div class="results">
+        <div class="roi-results">
+          <h3>Coffee Shop Costs</h3>
+          <h5 id="coffee-shop-cpy">Cost per year</h5>
+          <p>$7120</p>
+          <h5 id="cost-per-day">Cost per day</h5>
+          <p>$20</p>
+        </div>
+        <div class="roi-results">
+          <h3>Home Barista Savings</h3>
+          <h5 id="home-barista-cpy">Cost per year</h5>
+          <p>$2160</p>
+          <h5 id="coffee-bags">Coffee bags per year</h5>
+          <p>120</p>
+          <h5 id="coffee-bags-price">Coffee bag price</h5>
+          <p>$15</p>
+          <h5 id="beans-cost">Beans cost per year</h5>
+          <p>$1800</p>
+          <h5 id="milk-cost">Est. milk cost per year</h5>
+          <p>$360</p>
+
+        </div>
+        <div class="roi-results">
+          <h3>Home Barista Costs</h3>
+          <h5 id="savings-per-year">Savings per year</h5>
+          <p>$4960</p>
+          <h5 id="savings-over-x-years">Savings over 5 years</h5>
+          <p>$24800</p>
+          <h5 id="payback-result">Payback</h5>
+          <p>4 months</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h5>Sign me up</h5>
+    </div>
+  </div>
+</body>
+
+<script type="text/javascript" src="./file.js"></script>
+
+
+</html>
