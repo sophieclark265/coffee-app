@@ -293,20 +293,3 @@ function containerFunction() {
 // increasedRate should be global var
 //
 containerFunction();
-
-function apiPractice() {
-  let accessToken = authentication.getAccessToken() {
-
-  }
-}
-
-function getURL() {
-  let url = 'https://api.kroger.com/v1/products?'
-  let term = 'filter.term'
-}
-
-function getAccessToken() {
-  Authorization: 'c29waGllY2xhcmstMzJhODlmMzE4ZmNiZjAwYzAxZDI3ZmQwYmM0YjUxY2Y2NTYxMzk0MjM5MTg3NzYzOTk1Ok1ScHR1aWpqWnpzQ3BKU3ZVVmpsVTFoaWE1Vk5RTG1ZZlVHc1VFR18';
-}
-
-apiPractice();
