@@ -241,7 +241,7 @@ function containerFunction() {
     let parentDiv = e.target.parentNode;
     if (!customInput) {
       let newDiv = document.createElement("div");
-      newDiv.setAttribute("id", "bag-selector");
+      newDiv.setAttribute("id", "priceOfBeans-selector");
       let textBox = document.createElement("input");
       textBox.type = "number";
       textBox.min = "5";

@@ -30,7 +30,7 @@ const getAccessToken = async () => {
   }
 
   console.log("token expired, getting new token");
-  
+
   let baseEncoded = `c29waGllY2xhcmstMzJhODlmMzE4ZmNiZjAwYzAxZDI3ZmQwYmM0YjUxY2Y2NTYxMzk0MjM5MTg3NzYzOTk1Ok1ScHR1aWpqWnpzQ3BKU3ZVVmpsVTFoaWE1Vk5RTG1ZZlVHc1VFR18=`;
 
   let settings = {

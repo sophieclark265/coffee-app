@@ -205,6 +205,10 @@ input[type="range"] {
   margin: 0px 10px;
 }
 
-#bag-selector {
+#roi-milk {
+  justify-content: center;
+}
+
+#priceOfBeans-selector {
   justify-content: center;
 }
