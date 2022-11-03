@@ -204,3 +204,7 @@ input[type="range"] {
 #three-milks > input[type="radio"] {
   margin: 0px 10px;
 }
+
+#bag-selector {
+  justify-content: center;
+}
