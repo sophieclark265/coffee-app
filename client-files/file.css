@@ -215,3 +215,7 @@ input[type="range"] {
 #priceOfBeans-selector {
   justify-content: center;
 }
+
+.note {
+  font-size: 12px;
+}
