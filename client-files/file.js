@@ -110,11 +110,14 @@ function containerFunction() {
   function showHomeBaristaSavings(totalDrinksDaily, coffeeShopYearlyCost) {
     let milkCostPerYear = 90 * totalDrinksDaily;
     milkCostPerYear *= increasedRate;
+    console.log("milk cost per year", milkCostPerYear);
     let bagsPerYear = 30 * totalDrinksDaily;
     let bagCost = justNum;
     console.log("bags per year in show home barista", bagsPerYear);
     let totalBagCost = justNumYearly;
-    let homeBaristaTotalCost = milkCostPerYear + totalBagCost;
+    console.log("totalBag cost", totalBagCost);
+    let homeBaristaTotalCost =
+      parseInt(milkCostPerYear) + parseInt(totalBagCost);
     console.log("homeBarista total cost", homeBaristaTotalCost);
     let homeBaristaH5 = document.getElementById("home-barista-cpy");
     let milkCostH5 = document.getElementById("milk-cost");
