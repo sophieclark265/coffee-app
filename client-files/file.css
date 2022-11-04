@@ -194,6 +194,9 @@ input[type="range"] {
 
 .footer {
   color: #123466;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #roi-milk > p,

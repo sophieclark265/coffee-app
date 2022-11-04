@@ -294,3 +294,11 @@ function containerFunction() {
 // increasedRate should be global var
 //
 containerFunction();
+
+function signUpVisitor() {
+  let button = document.getElementById("sign-up-button");
+  let clicked = button.addEventListener("click", () =>
+    alert(`You're now signed up!`)
+  );
+}
+signUpVisitor();
