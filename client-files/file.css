@@ -216,6 +216,18 @@ input[type="range"] {
   justify-content: center;
 }
 
+input[type="number"] {
+  border-radius: 5px;
+  padding: 3px 10px;
+  font-family: inherit;
+  background-color: rgba(211, 211, 211, 0.123);
+}
+
+input:hover {
+  background-color: gray;
+  color: white;
+}
+
 .note {
   font-size: 12px;
 }
